@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak with Confidence | Public Speaking Coaching</title>
+    <meta name="description" content="Transform your public speaking skills with expert coaching.  Overcome fear, deliver impactful presentations, and become a confident communicator.  Book your free consultation today!">
+    <meta name="keywords" content="public speaking, coaching, presentation skills, communication skills, confidence, fear of public speaking, speech coach, public speaking training, presentation training, effective communication">
+    <meta name="author" content="[Your Name/Company Name - Replace with actual]">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        
+        /* Hero Section */
+        #hero {
+            background: url('placeholder_image_hero.jpg') no-repeat center center/cover;  /* Placeholder */
+            height: 500px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hero h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e8491d;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #333;
+        }
+
+        /* About Section */
+        #about {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #about img { /* Placeholder image */
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+          margin-bottom: 20px;
+        }
+        #about .about-content{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+        }
+
+        /* Services Section */
+        #services {
+            padding: 40px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .service-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .service-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Testimonials Section (Carousel) */
+        #testimonials {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .carousel {
+            position: relative;
+            width: 80%;
+            margin: auto;
+        }
+
+        .carousel-item {
+            display: none; /* Initially hide all items */
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .carousel-item.active {
+            display: block; /* Show the active item */
+        }
+
+        .carousel-item p {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .carousel-item .author {
+            font-weight: bold;
+        }
+
+        .carousel-controls {
+            margin-top: 20px;
+        }
+
+        .carousel-controls button {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+
+
+        /* Contact Section */
+        #contact {
+            padding: 40px 0;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        #contact form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        #contact input, #contact textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        #contact button {
+            background-color: #e8491d;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+         /* Footer */
+        footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #333;
+          color: #fff;
+        }
+
+        /* --- Responsive Design (Media Queries) --- */
+        @media (max-width: 768px) {
+            header {
+                padding-bottom: 20px;
+            }
+
+            header #branding, header nav, header nav li {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            header nav li{
+              padding: 5px;
+            }
+             #about .about-content{
+               flex-direction: column;
+            }
+            .container {
+                width: 95%; /* More padding on smaller screens */
+            }
+            #hero h1{
+              font-size: 2em;
+            }
+            .carousel {
+              width: 95%;
+            }
+            .service-box{
+              display: flex;
+              flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Speak</span> with Confidence</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Unlock Your Voice. Master Your Message.</h1>
+            <p>Become a confident and compelling public speaker with personalized coaching.</p>
+            <a href="#contact" class="btn">Get a Free Consultation</a>
+        </div>
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="XXXXXXXXXX"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Your Coach</h2>
+              <div class="about-content">
+                <img src="placeholder_coach_photo.jpg" alt="[Coach's Name]">
+                <div>
+                  <p>[Coach's Name] is a certified public speaking coach with [Number] years of experience helping individuals and groups overcome their fear of public speaking and deliver impactful presentations.  [He/She/They] specialize in [Specific areas of expertise, e.g., presentation structure, voice projection, body language, storytelling, handling Q&A].  [Include a brief personal story or mission statement about why they are passionate about public speaking coaching.]</p>
+                  <p>My approach is tailored to your individual needs and goals.  Whether you're preparing for a keynote speech, a business presentation, a wedding toast, or simply want to improve your everyday communication skills, I can help you achieve your desired results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+
+            <div class="service-box">
+                <img src="placeholder_service_1.jpg" alt="One-on-One Coaching">
+
+                <h3>One-on-One Coaching</h3>
+                <p>Personalized coaching sessions tailored to your specific needs and goals.  We'll work together to identify your strengths and weaknesses, develop a customized plan, and practice techniques to improve your delivery and confidence.</p>
+            </div>
+
+            <div class="service-box">
+              <img src="placeholder_service_2.jpg" alt="Group Workshops">
+                <h3>Group Workshops</h3>
+                <p>Learn and practice public speaking skills in a supportive and interactive group setting.  Workshops cover a variety of topics, including overcoming anxiety, structuring presentations, using visual aids, and engaging your audience.</p>
+            </div>
+
+            <div class="service-box">
+               <img src="placeholder_service_3.jpg" alt="Online Coaching">
+
+                <h3>Online Coaching</h3>
+                <p>Receive expert coaching from anywhere in the world through online video sessions. This is a convenient and flexible option for those who prefer to learn from the comfort of their own home or office.</p>
+            </div>
+        </div>
+        <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+              data-ad-slot="XXXXXXXXXX"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <p>"[Coach's Name] helped me overcome my fear of public speaking and deliver a confident and engaging presentation at my company's annual conference.  I highly recommend [him/her/them]!"</p>
+                    <p class="author">- Sarah J.</p>
+                </div>
+                <div class="carousel-item">
+                    <p>"I learned so much in the group workshop! The exercises were practical and effective, and I felt incredibly supported by [Coach's Name] and the other participants."</p>
+                    <p class="author">- Michael B.</p>
+                </div>
+                <div class="carousel-item">
+                    <p>"The online coaching sessions were a game-changer for me.  I was able to get personalized feedback and practice my presentations from the comfort of my own home."</p>
+                    <p class="author">- Emily L.</p>
+                </div>
+                 <div class="carousel-item">
+                    <p>"I used to get so nervous before giving presentations, but after working with [Coach's Name], I feel much more confident and in control.  [He/She/They] helped me develop a strong message and deliver it with impact."</p>
+                    <p class="author">- David K.</p>
+                </div>
+                <div class="carousel-item">
+                    <p>"The best investment I ever made in my professional development.  I'm now a much more effective communicator, both in formal presentations and in everyday interactions."</p>
+                    <p class="author">- Jessica R.</p>
+                </div>
+
+                <div class="carousel-controls">
+                    <button id="prevBtn">&#10094;</button>
+                    <button id="nextBtn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to take your public speaking skills to the next level?  Contact us today for a free consultation!</p>
+            <form action="#" method="post">  <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+          <p>Speak with Confidence &copy; 2023 | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+      // Carousel JavaScript
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      let currentItemIndex = 0;
+
+      function showItem(index) {
+          carouselItems.forEach(item => item.classList.remove('active'));
+          carouselItems[index].classList.add('active');
+      }
+
+      function nextItem() {
+          currentItemIndex = (currentItemIndex + 1) % carouselItems.length;
+          showItem(currentItemIndex);
+      }
+
+      function prevItem() {
+          currentItemIndex = (currentItemIndex - 1 + carouselItems.length) % carouselItems.length;
+          showItem(currentItemIndex);
+      }
+
+      nextBtn.addEventListener('click', nextItem);
+      prevBtn.addEventListener('click', prevItem);
+
+      // Optional: Auto-advance the carousel
+      setInterval(nextItem, 5000); // Change slide every 5 seconds
+    </script>
+</body>
+</html>
